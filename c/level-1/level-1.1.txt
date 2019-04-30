@@ -1,6 +1,6 @@
 .
 .
-c - Cascading Style Sheets.
+C - 
 .
 .
 - level 1: C
