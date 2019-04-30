@@ -1,0 +1,79 @@
+.
+.
+c - Cascading Style Sheets.
+.
+.
+- level 1: C
+- level 1.1 - C - Data Types
+
+.
+.
+- level 1: C
+
+-- C is a low-level language that relates closely to the way machines work while still being easy to learn. 
+
+-!- Understanding how computer memory works is an important aspect of the C programming language
+
+--- example:
+
+    #include <stdio.h>
+
+    int main() 
+    {
+        printf("Welcome !\n");
+
+        return 0;
+    }
+
+
+--- example information
+
+    #include <stdio.h>
+    The function "printf()" used for generating output is defined in "stdio.h" (header file).
+
+    int main() 
+    The main() function is the entry point to a program. 
+
+    { } 
+    Curly brackets indicate the beginning and end of a function (code block). 
+
+    \n 
+    escape sequence - new line;
+
+    return 0;
+    returns the value 0 to the calling process.
+    0 generally means that our program has successfully executed.
+    Any other number indicates that the program has failed.
+
+--- example: 
+    <c-1.1.c>: c first program
+,
+,
+- level 1.1 - C - Data Types
+,
+
+- C data types: 
+
+-- int: integer (12).
+-- float: floating point (1.23).
+-- double: double-precision floating point value (1.23).
+-- char: single character ('c').
+
+--- example: variable:
+
+    #include <stdio.h>
+
+    int main() 
+    {
+        printf("int: %d \n", sizeof(int));
+        printf("float: %d \n", sizeof(float));
+        printf("double: %d \n", sizeof(double));
+        printf("char: %d \n", sizeof(char));
+
+        return 0;
+    }
+
+--- example: 
+    <c-1.2.c>: C data types
+
+
